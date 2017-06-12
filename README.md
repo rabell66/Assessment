@@ -32,15 +32,14 @@ var b = 5
 
 #### Compartmentalization:
 (function() {
-  "use strict";
+  
   var multiply = 2 * 8;
 
   function duplicate() {
     var multiply = 2 * 10;
   };
 
-  duplicate();
 
-  console.log( "multiply", multiply );
+
   
-})();
+}
